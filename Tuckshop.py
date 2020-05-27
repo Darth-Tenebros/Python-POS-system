@@ -49,8 +49,8 @@ class TuckShop(QWidget):
         grid = QGridLayout()
         grid.addWidget(self.combo, 0,1)
         grid.addWidget(self.textBox, 0, 2)
-        # grid.addWidget(self.label, 1,1)
-        grid.addWidget(hbox2, 1,1)
+        grid.addWidget(self.label, 1,1)
+        grid.addWidget(hbox2, 2,1)
         self.setLayout(grid)
 
 
